@@ -1,12 +1,15 @@
 # 🎧 commentate-API
-A fast and lightweight, micro service API made to transform boring text into high energy football commentary.
-## 🚀 How it works?
-1. **the API** its a high performance web server that listen to incoming HTTP POST requests.
-2. **The execution pipeline** when getting data the API uses it to call `python worker.py {HTTP POST data here}`
-3. **The python worker execution** the data transforms to the python worker with the help of `sys.argv[1]` and immediately send a request to groqs open source models hosted by them and for this i used the open source model ``
-## 📦 infrastructure
-* **Containerization**because renders cloud server are tiny "the free version" i containerize it to be lightweight and ready to be deployed to the cloud
-# how to send to it
-i can find a cloud server without a credit card am just 11 years old and im from moroco
 
-so thank you for seeing and using this API. I hope you enjoy it.
+A fast and lightweight micro service API made to transform boring text into high energy football commentary.
+
+## 🚀 How it works?
+1. **The Server:** A high performance Go web server that listens to incoming HTTP POST requests.
+2. **The Pipeline:** When it gets data, the Go server calls a python worker: `python3 worker.py "{data}"`
+3. **The AI:** The python worker grabs the data using `sys.argv[1]` and immediately sends a request to Groq's cloud for talking with open source openai models.
+
+## 📦 Why I built it this way
+Render and other free cloud servers give you tiny RAM limits, so I built this to be super lightweight and ready to run. 
+
+I am just 11 years old and from Morocco, so I don't have a credit card for cloud servers. Because of that, this project is built to run easily and locally wherever you want.
+
+Thank you very much for checking out my API, and I hope you enjoy it! ⚽🔥
