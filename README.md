@@ -7,6 +7,6 @@ A fast and lightweight, micro service API made to transform boring text into hig
 ## 📦 infrastructure
 * **Containerization**because renders cloud server are tiny "the free version" i containerize it to be lightweight and ready to be deployed to the cloud
 # how to send to it
-if you are in Linux you gonna use ``
+i can find a cloud server without a credit card am just 11 years old and im from moroco
 
 so thank you for seeing and using this API. I hope you enjoy it.
