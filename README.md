@@ -10,7 +10,7 @@ A fast and lightweight micro service API made to transform boring text into high
 ## 📦 Why I built it this way
 Render and other free cloud servers give you tiny RAM limits, so I built this to be super lightweight and ready to run. 
 
-I am just 11 years old and from Morocco, so I don't have a credit card for cloud servers. Because of that, this project is built to run easily and locally wherever you want.
+I am young teenager from Morocco, so I don't have a credit card for cloud servers. Because of that, this project is built to run easily and locally wherever you want.
 ### how to make the post request when running:
 - use this command and replace "the+cat.." with your prompt:
 ```bash
