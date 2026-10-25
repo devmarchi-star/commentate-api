@@ -11,5 +11,11 @@ A fast and lightweight micro service API made to transform boring text into high
 Render and other free cloud servers give you tiny RAM limits, so I built this to be super lightweight and ready to run. 
 
 I am just 11 years old and from Morocco, so I don't have a credit card for cloud servers. Because of that, this project is built to run easily and locally wherever you want.
+### how to make the post request when running:
+- use this command and replace "the+cat.." with your prompt:
+```bash
+curl "http://localhost:8080/?prompt=the+cat+saved+a+missel+shot"
+```
+for a better guide go to the release page it has the latest documentary and releases.
 
 Thank you very much for checking out my API, and I hope you enjoy it! ⚽🔥
